@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Graphic - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ASUS\AppData\Local\Temp\RSPD5A9.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Graphic.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\ASUS\Desktop\Graphic\GraphicView.cpp"
+"C:\Users\ASUS\Desktop\Graphic\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\Users\ASUS\AppData\Local\Temp\RSPD5A9.tmp" 
+Creating temporary file "C:\Users\ASUS\AppData\Local\Temp\RSPD5AA.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Graphic.pdb" /debug /machine:I386 /out:"Debug/Graphic.exe" /pdbtype:sept 
+.\Debug\Graph.obj
+.\Debug\Graphic.obj
+.\Debug\GraphicDoc.obj
+.\Debug\GraphicView.obj
+.\Debug\MainFrm.obj
+.\Debug\SettingDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\Graphic.res
+]
+Creating command line "link.exe @C:\Users\ASUS\AppData\Local\Temp\RSPD5AA.tmp"
+<h3>Output Window</h3>
+Compiling...
+GraphicView.cpp
+C:\Users\ASUS\Desktop\Graphic\GraphicView.cpp(390) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+C:\Users\ASUS\Desktop\Graphic\GraphicView.cpp(454) : error C2064: term does not evaluate to a function
+C:\Users\ASUS\Desktop\Graphic\GraphicView.cpp(454) : error C2064: term does not evaluate to a function
+MainFrm.cpp
+C:\Users\ASUS\Desktop\Graphic\MainFrm.cpp(73) : error C2061: syntax error : identifier 'm_wndToolBar'
+Generating Code...
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+Graphic.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
